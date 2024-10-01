@@ -58,7 +58,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "unconnected_items|97396000|38250000|4aef9514-2047-42f5-92e6-f06b8413b80f|a030ec09-e7df-430a-a552-ccda81cf2f3b"
+      ],
       "meta": {
         "version": 2
       },
@@ -116,7 +118,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.3,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
@@ -480,7 +482,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/cintu/OneDrive/Documentos/Club de robótica/Fabricación/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
